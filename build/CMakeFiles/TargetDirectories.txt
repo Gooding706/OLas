@@ -1,5 +1,0 @@
-/Users/owen/Desktop/olas/OLas/build/CMakeFiles/OLAS.dir
-/Users/owen/Desktop/olas/OLas/build/CMakeFiles/package.dir
-/Users/owen/Desktop/olas/OLas/build/CMakeFiles/package_source.dir
-/Users/owen/Desktop/olas/OLas/build/CMakeFiles/edit_cache.dir
-/Users/owen/Desktop/olas/OLas/build/CMakeFiles/rebuild_cache.dir
