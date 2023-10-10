@@ -1,7 +1,3 @@
-./dependencies/assimp/**
-./dependencies/glad/**
-./dependencies/glfw/**
-./dependencies/glm/**
-./dependencies/imgui/**
-./build/**
-./.vscode
+dependencies/
+build/
+.vscode

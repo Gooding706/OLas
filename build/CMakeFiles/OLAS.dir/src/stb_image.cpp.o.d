@@ -1,6 +1,6 @@
 CMakeFiles/OLAS.dir/src/stb_image.cpp.o: \
-  /Users/owen/Desktop/maybeICan/src/stb_image.cpp \
-  /Users/owen/Desktop/maybeICan/includes/stb_image.h \
+  /Users/owen/Desktop/olas/OLas/src/stb_image.cpp \
+  /Users/owen/Desktop/olas/OLas/includes/stb_image.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__config_site \

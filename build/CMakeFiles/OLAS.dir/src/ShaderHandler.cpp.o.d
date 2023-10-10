@@ -1,8 +1,8 @@
 CMakeFiles/OLAS.dir/src/ShaderHandler.cpp.o: \
-  /Users/owen/Desktop/maybeICan/src/ShaderHandler.cpp \
-  /Users/owen/Desktop/maybeICan/includes/ShaderHandler.h \
-  /Users/owen/Desktop/maybeICan/dependencies/glad/glad.h \
-  /Users/owen/Desktop/maybeICan/dependencies/glad/khrplatform.h \
+  /Users/owen/Desktop/olas/OLas/src/ShaderHandler.cpp \
+  /Users/owen/Desktop/olas/OLas/includes/ShaderHandler.h \
+  /Users/owen/Desktop/olas/OLas/dependencies/glad/glad.h \
+  /Users/owen/Desktop/olas/OLas/dependencies/glad/khrplatform.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__config_site \
@@ -417,8 +417,8 @@ CMakeFiles/OLAS.dir/src/ShaderHandler.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
-  /Users/owen/Desktop/maybeICan/includes/FileInput.h \
-  /Users/owen/Desktop/maybeICan/includes/stb_image.h \
+  /Users/owen/Desktop/olas/OLas/includes/FileInput.h \
+  /Users/owen/Desktop/olas/OLas/includes/stb_image.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/fstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/filesystem \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stack \

@@ -1,7 +1,7 @@
 CMakeFiles/OLAS.dir/src/FileInput.cpp.o: \
-  /Users/owen/Desktop/maybeICan/src/FileInput.cpp \
-  /Users/owen/Desktop/maybeICan/includes/FileInput.h \
-  /Users/owen/Desktop/maybeICan/includes/stb_image.h \
+  /Users/owen/Desktop/olas/OLas/src/FileInput.cpp \
+  /Users/owen/Desktop/olas/OLas/includes/FileInput.h \
+  /Users/owen/Desktop/olas/OLas/includes/stb_image.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__config_site \
@@ -80,8 +80,8 @@ CMakeFiles/OLAS.dir/src/FileInput.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/malloc/_malloc.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_dev_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/sys/_types/_mode_t.h \
-  /Users/owen/Desktop/maybeICan/dependencies/glad/glad.h \
-  /Users/owen/Desktop/maybeICan/dependencies/glad/khrplatform.h \
+  /Users/owen/Desktop/olas/OLas/dependencies/glad/glad.h \
+  /Users/owen/Desktop/olas/OLas/dependencies/glad/khrplatform.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__locale \
@@ -425,37 +425,37 @@ CMakeFiles/OLAS.dir/src/FileInput.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__split_buffer \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iomanip \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/sstream \
-  /Users/owen/Desktop/maybeICan/includes/Types.h \
-  /Users/owen/Desktop/maybeICan/dependencies/assimp/include/assimp/Importer.hpp \
-  /Users/owen/Desktop/maybeICan/dependencies/assimp/include/assimp/types.h \
-  /Users/owen/Desktop/maybeICan/dependencies/assimp/include/assimp/defs.h \
-  /Users/owen/Desktop/maybeICan/dependencies/assimp/include/assimp/config.h \
-  /Users/owen/Desktop/maybeICan/dependencies/assimp/include/assimp/vector2.h \
+  /Users/owen/Desktop/olas/OLas/includes/Types.h \
+  /Users/owen/Desktop/olas/OLas/dependencies/assimp/include/assimp/Importer.hpp \
+  /Users/owen/Desktop/olas/OLas/dependencies/assimp/include/assimp/types.h \
+  /Users/owen/Desktop/olas/OLas/dependencies/assimp/include/assimp/defs.h \
+  /Users/owen/Desktop/olas/OLas/dependencies/assimp/include/assimp/config.h \
+  /Users/owen/Desktop/olas/OLas/dependencies/assimp/include/assimp/vector2.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cmath \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/math.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/math.h \
-  /Users/owen/Desktop/maybeICan/dependencies/assimp/include/assimp/vector3.h \
-  /Users/owen/Desktop/maybeICan/dependencies/assimp/include/assimp/color4.h \
-  /Users/owen/Desktop/maybeICan/dependencies/assimp/include/assimp/matrix3x3.h \
-  /Users/owen/Desktop/maybeICan/dependencies/assimp/include/assimp/matrix4x4.h \
-  /Users/owen/Desktop/maybeICan/dependencies/assimp/include/assimp/quaternion.h \
-  /Users/owen/Desktop/maybeICan/dependencies/assimp/include/assimp/vector2.inl \
-  /Users/owen/Desktop/maybeICan/dependencies/assimp/include/assimp/vector3.inl \
-  /Users/owen/Desktop/maybeICan/dependencies/assimp/include/assimp/color4.inl \
-  /Users/owen/Desktop/maybeICan/dependencies/assimp/include/assimp/matrix3x3.inl \
-  /Users/owen/Desktop/maybeICan/dependencies/assimp/include/assimp/matrix4x4.inl \
-  /Users/owen/Desktop/maybeICan/dependencies/assimp/include/assimp/MathFunctions.h \
-  /Users/owen/Desktop/maybeICan/dependencies/assimp/include/assimp/quaternion.inl \
-  /Users/owen/Desktop/maybeICan/dependencies/assimp/include/assimp/scene.h \
-  /Users/owen/Desktop/maybeICan/dependencies/assimp/include/assimp/texture.h \
-  /Users/owen/Desktop/maybeICan/dependencies/assimp/include/assimp/./Compiler/pushpack1.h \
-  /Users/owen/Desktop/maybeICan/dependencies/assimp/include/assimp/./Compiler/poppack1.h \
-  /Users/owen/Desktop/maybeICan/dependencies/assimp/include/assimp/mesh.h \
-  /Users/owen/Desktop/maybeICan/dependencies/assimp/include/assimp/aabb.h \
-  /Users/owen/Desktop/maybeICan/dependencies/assimp/include/assimp/light.h \
-  /Users/owen/Desktop/maybeICan/dependencies/assimp/include/assimp/camera.h \
-  /Users/owen/Desktop/maybeICan/dependencies/assimp/include/assimp/material.h \
-  /Users/owen/Desktop/maybeICan/dependencies/assimp/include/assimp/material.inl \
-  /Users/owen/Desktop/maybeICan/dependencies/assimp/include/assimp/anim.h \
-  /Users/owen/Desktop/maybeICan/dependencies/assimp/include/assimp/metadata.h \
-  /Users/owen/Desktop/maybeICan/dependencies/assimp/include/assimp/postprocess.h
+  /Users/owen/Desktop/olas/OLas/dependencies/assimp/include/assimp/vector3.h \
+  /Users/owen/Desktop/olas/OLas/dependencies/assimp/include/assimp/color4.h \
+  /Users/owen/Desktop/olas/OLas/dependencies/assimp/include/assimp/matrix3x3.h \
+  /Users/owen/Desktop/olas/OLas/dependencies/assimp/include/assimp/matrix4x4.h \
+  /Users/owen/Desktop/olas/OLas/dependencies/assimp/include/assimp/quaternion.h \
+  /Users/owen/Desktop/olas/OLas/dependencies/assimp/include/assimp/vector2.inl \
+  /Users/owen/Desktop/olas/OLas/dependencies/assimp/include/assimp/vector3.inl \
+  /Users/owen/Desktop/olas/OLas/dependencies/assimp/include/assimp/color4.inl \
+  /Users/owen/Desktop/olas/OLas/dependencies/assimp/include/assimp/matrix3x3.inl \
+  /Users/owen/Desktop/olas/OLas/dependencies/assimp/include/assimp/matrix4x4.inl \
+  /Users/owen/Desktop/olas/OLas/dependencies/assimp/include/assimp/MathFunctions.h \
+  /Users/owen/Desktop/olas/OLas/dependencies/assimp/include/assimp/quaternion.inl \
+  /Users/owen/Desktop/olas/OLas/dependencies/assimp/include/assimp/scene.h \
+  /Users/owen/Desktop/olas/OLas/dependencies/assimp/include/assimp/texture.h \
+  /Users/owen/Desktop/olas/OLas/dependencies/assimp/include/assimp/./Compiler/pushpack1.h \
+  /Users/owen/Desktop/olas/OLas/dependencies/assimp/include/assimp/./Compiler/poppack1.h \
+  /Users/owen/Desktop/olas/OLas/dependencies/assimp/include/assimp/mesh.h \
+  /Users/owen/Desktop/olas/OLas/dependencies/assimp/include/assimp/aabb.h \
+  /Users/owen/Desktop/olas/OLas/dependencies/assimp/include/assimp/light.h \
+  /Users/owen/Desktop/olas/OLas/dependencies/assimp/include/assimp/camera.h \
+  /Users/owen/Desktop/olas/OLas/dependencies/assimp/include/assimp/material.h \
+  /Users/owen/Desktop/olas/OLas/dependencies/assimp/include/assimp/material.inl \
+  /Users/owen/Desktop/olas/OLas/dependencies/assimp/include/assimp/anim.h \
+  /Users/owen/Desktop/olas/OLas/dependencies/assimp/include/assimp/metadata.h \
+  /Users/owen/Desktop/olas/OLas/dependencies/assimp/include/assimp/postprocess.h

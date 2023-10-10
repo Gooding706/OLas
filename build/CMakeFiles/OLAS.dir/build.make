@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.27.6/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/owen/Desktop/maybeICan
+CMAKE_SOURCE_DIR = /Users/owen/Desktop/olas/OLas
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/owen/Desktop/maybeICan/build
+CMAKE_BINARY_DIR = /Users/owen/Desktop/olas/OLas/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/OLAS.dir/depend.make
@@ -70,158 +70,158 @@ include CMakeFiles/OLAS.dir/progress.make
 include CMakeFiles/OLAS.dir/flags.make
 
 CMakeFiles/OLAS.dir/dependencies/glad/glad.c.o: CMakeFiles/OLAS.dir/flags.make
-CMakeFiles/OLAS.dir/dependencies/glad/glad.c.o: /Users/owen/Desktop/maybeICan/dependencies/glad/glad.c
+CMakeFiles/OLAS.dir/dependencies/glad/glad.c.o: /Users/owen/Desktop/olas/OLas/dependencies/glad/glad.c
 CMakeFiles/OLAS.dir/dependencies/glad/glad.c.o: CMakeFiles/OLAS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/owen/Desktop/maybeICan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/OLAS.dir/dependencies/glad/glad.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OLAS.dir/dependencies/glad/glad.c.o -MF CMakeFiles/OLAS.dir/dependencies/glad/glad.c.o.d -o CMakeFiles/OLAS.dir/dependencies/glad/glad.c.o -c /Users/owen/Desktop/maybeICan/dependencies/glad/glad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/owen/Desktop/olas/OLas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/OLAS.dir/dependencies/glad/glad.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/OLAS.dir/dependencies/glad/glad.c.o -MF CMakeFiles/OLAS.dir/dependencies/glad/glad.c.o.d -o CMakeFiles/OLAS.dir/dependencies/glad/glad.c.o -c /Users/owen/Desktop/olas/OLas/dependencies/glad/glad.c
 
 CMakeFiles/OLAS.dir/dependencies/glad/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/OLAS.dir/dependencies/glad/glad.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/owen/Desktop/maybeICan/dependencies/glad/glad.c > CMakeFiles/OLAS.dir/dependencies/glad/glad.c.i
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/owen/Desktop/olas/OLas/dependencies/glad/glad.c > CMakeFiles/OLAS.dir/dependencies/glad/glad.c.i
 
 CMakeFiles/OLAS.dir/dependencies/glad/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/OLAS.dir/dependencies/glad/glad.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/owen/Desktop/maybeICan/dependencies/glad/glad.c -o CMakeFiles/OLAS.dir/dependencies/glad/glad.c.s
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/owen/Desktop/olas/OLas/dependencies/glad/glad.c -o CMakeFiles/OLAS.dir/dependencies/glad/glad.c.s
 
 CMakeFiles/OLAS.dir/src/Camera.cpp.o: CMakeFiles/OLAS.dir/flags.make
-CMakeFiles/OLAS.dir/src/Camera.cpp.o: /Users/owen/Desktop/maybeICan/src/Camera.cpp
+CMakeFiles/OLAS.dir/src/Camera.cpp.o: /Users/owen/Desktop/olas/OLas/src/Camera.cpp
 CMakeFiles/OLAS.dir/src/Camera.cpp.o: CMakeFiles/OLAS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/owen/Desktop/maybeICan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/OLAS.dir/src/Camera.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OLAS.dir/src/Camera.cpp.o -MF CMakeFiles/OLAS.dir/src/Camera.cpp.o.d -o CMakeFiles/OLAS.dir/src/Camera.cpp.o -c /Users/owen/Desktop/maybeICan/src/Camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/owen/Desktop/olas/OLas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/OLAS.dir/src/Camera.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OLAS.dir/src/Camera.cpp.o -MF CMakeFiles/OLAS.dir/src/Camera.cpp.o.d -o CMakeFiles/OLAS.dir/src/Camera.cpp.o -c /Users/owen/Desktop/olas/OLas/src/Camera.cpp
 
 CMakeFiles/OLAS.dir/src/Camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OLAS.dir/src/Camera.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/owen/Desktop/maybeICan/src/Camera.cpp > CMakeFiles/OLAS.dir/src/Camera.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/owen/Desktop/olas/OLas/src/Camera.cpp > CMakeFiles/OLAS.dir/src/Camera.cpp.i
 
 CMakeFiles/OLAS.dir/src/Camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OLAS.dir/src/Camera.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/owen/Desktop/maybeICan/src/Camera.cpp -o CMakeFiles/OLAS.dir/src/Camera.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/owen/Desktop/olas/OLas/src/Camera.cpp -o CMakeFiles/OLAS.dir/src/Camera.cpp.s
 
 CMakeFiles/OLAS.dir/src/EBO.cpp.o: CMakeFiles/OLAS.dir/flags.make
-CMakeFiles/OLAS.dir/src/EBO.cpp.o: /Users/owen/Desktop/maybeICan/src/EBO.cpp
+CMakeFiles/OLAS.dir/src/EBO.cpp.o: /Users/owen/Desktop/olas/OLas/src/EBO.cpp
 CMakeFiles/OLAS.dir/src/EBO.cpp.o: CMakeFiles/OLAS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/owen/Desktop/maybeICan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/OLAS.dir/src/EBO.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OLAS.dir/src/EBO.cpp.o -MF CMakeFiles/OLAS.dir/src/EBO.cpp.o.d -o CMakeFiles/OLAS.dir/src/EBO.cpp.o -c /Users/owen/Desktop/maybeICan/src/EBO.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/owen/Desktop/olas/OLas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/OLAS.dir/src/EBO.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OLAS.dir/src/EBO.cpp.o -MF CMakeFiles/OLAS.dir/src/EBO.cpp.o.d -o CMakeFiles/OLAS.dir/src/EBO.cpp.o -c /Users/owen/Desktop/olas/OLas/src/EBO.cpp
 
 CMakeFiles/OLAS.dir/src/EBO.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OLAS.dir/src/EBO.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/owen/Desktop/maybeICan/src/EBO.cpp > CMakeFiles/OLAS.dir/src/EBO.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/owen/Desktop/olas/OLas/src/EBO.cpp > CMakeFiles/OLAS.dir/src/EBO.cpp.i
 
 CMakeFiles/OLAS.dir/src/EBO.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OLAS.dir/src/EBO.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/owen/Desktop/maybeICan/src/EBO.cpp -o CMakeFiles/OLAS.dir/src/EBO.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/owen/Desktop/olas/OLas/src/EBO.cpp -o CMakeFiles/OLAS.dir/src/EBO.cpp.s
 
 CMakeFiles/OLAS.dir/src/FileInput.cpp.o: CMakeFiles/OLAS.dir/flags.make
-CMakeFiles/OLAS.dir/src/FileInput.cpp.o: /Users/owen/Desktop/maybeICan/src/FileInput.cpp
+CMakeFiles/OLAS.dir/src/FileInput.cpp.o: /Users/owen/Desktop/olas/OLas/src/FileInput.cpp
 CMakeFiles/OLAS.dir/src/FileInput.cpp.o: CMakeFiles/OLAS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/owen/Desktop/maybeICan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/OLAS.dir/src/FileInput.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OLAS.dir/src/FileInput.cpp.o -MF CMakeFiles/OLAS.dir/src/FileInput.cpp.o.d -o CMakeFiles/OLAS.dir/src/FileInput.cpp.o -c /Users/owen/Desktop/maybeICan/src/FileInput.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/owen/Desktop/olas/OLas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/OLAS.dir/src/FileInput.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OLAS.dir/src/FileInput.cpp.o -MF CMakeFiles/OLAS.dir/src/FileInput.cpp.o.d -o CMakeFiles/OLAS.dir/src/FileInput.cpp.o -c /Users/owen/Desktop/olas/OLas/src/FileInput.cpp
 
 CMakeFiles/OLAS.dir/src/FileInput.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OLAS.dir/src/FileInput.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/owen/Desktop/maybeICan/src/FileInput.cpp > CMakeFiles/OLAS.dir/src/FileInput.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/owen/Desktop/olas/OLas/src/FileInput.cpp > CMakeFiles/OLAS.dir/src/FileInput.cpp.i
 
 CMakeFiles/OLAS.dir/src/FileInput.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OLAS.dir/src/FileInput.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/owen/Desktop/maybeICan/src/FileInput.cpp -o CMakeFiles/OLAS.dir/src/FileInput.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/owen/Desktop/olas/OLas/src/FileInput.cpp -o CMakeFiles/OLAS.dir/src/FileInput.cpp.s
 
 CMakeFiles/OLAS.dir/src/Mesh.cpp.o: CMakeFiles/OLAS.dir/flags.make
-CMakeFiles/OLAS.dir/src/Mesh.cpp.o: /Users/owen/Desktop/maybeICan/src/Mesh.cpp
+CMakeFiles/OLAS.dir/src/Mesh.cpp.o: /Users/owen/Desktop/olas/OLas/src/Mesh.cpp
 CMakeFiles/OLAS.dir/src/Mesh.cpp.o: CMakeFiles/OLAS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/owen/Desktop/maybeICan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/OLAS.dir/src/Mesh.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OLAS.dir/src/Mesh.cpp.o -MF CMakeFiles/OLAS.dir/src/Mesh.cpp.o.d -o CMakeFiles/OLAS.dir/src/Mesh.cpp.o -c /Users/owen/Desktop/maybeICan/src/Mesh.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/owen/Desktop/olas/OLas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/OLAS.dir/src/Mesh.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OLAS.dir/src/Mesh.cpp.o -MF CMakeFiles/OLAS.dir/src/Mesh.cpp.o.d -o CMakeFiles/OLAS.dir/src/Mesh.cpp.o -c /Users/owen/Desktop/olas/OLas/src/Mesh.cpp
 
 CMakeFiles/OLAS.dir/src/Mesh.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OLAS.dir/src/Mesh.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/owen/Desktop/maybeICan/src/Mesh.cpp > CMakeFiles/OLAS.dir/src/Mesh.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/owen/Desktop/olas/OLas/src/Mesh.cpp > CMakeFiles/OLAS.dir/src/Mesh.cpp.i
 
 CMakeFiles/OLAS.dir/src/Mesh.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OLAS.dir/src/Mesh.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/owen/Desktop/maybeICan/src/Mesh.cpp -o CMakeFiles/OLAS.dir/src/Mesh.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/owen/Desktop/olas/OLas/src/Mesh.cpp -o CMakeFiles/OLAS.dir/src/Mesh.cpp.s
 
 CMakeFiles/OLAS.dir/src/Renderer.cpp.o: CMakeFiles/OLAS.dir/flags.make
-CMakeFiles/OLAS.dir/src/Renderer.cpp.o: /Users/owen/Desktop/maybeICan/src/Renderer.cpp
+CMakeFiles/OLAS.dir/src/Renderer.cpp.o: /Users/owen/Desktop/olas/OLas/src/Renderer.cpp
 CMakeFiles/OLAS.dir/src/Renderer.cpp.o: CMakeFiles/OLAS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/owen/Desktop/maybeICan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/OLAS.dir/src/Renderer.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OLAS.dir/src/Renderer.cpp.o -MF CMakeFiles/OLAS.dir/src/Renderer.cpp.o.d -o CMakeFiles/OLAS.dir/src/Renderer.cpp.o -c /Users/owen/Desktop/maybeICan/src/Renderer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/owen/Desktop/olas/OLas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/OLAS.dir/src/Renderer.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OLAS.dir/src/Renderer.cpp.o -MF CMakeFiles/OLAS.dir/src/Renderer.cpp.o.d -o CMakeFiles/OLAS.dir/src/Renderer.cpp.o -c /Users/owen/Desktop/olas/OLas/src/Renderer.cpp
 
 CMakeFiles/OLAS.dir/src/Renderer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OLAS.dir/src/Renderer.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/owen/Desktop/maybeICan/src/Renderer.cpp > CMakeFiles/OLAS.dir/src/Renderer.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/owen/Desktop/olas/OLas/src/Renderer.cpp > CMakeFiles/OLAS.dir/src/Renderer.cpp.i
 
 CMakeFiles/OLAS.dir/src/Renderer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OLAS.dir/src/Renderer.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/owen/Desktop/maybeICan/src/Renderer.cpp -o CMakeFiles/OLAS.dir/src/Renderer.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/owen/Desktop/olas/OLas/src/Renderer.cpp -o CMakeFiles/OLAS.dir/src/Renderer.cpp.s
 
 CMakeFiles/OLAS.dir/src/ShaderHandler.cpp.o: CMakeFiles/OLAS.dir/flags.make
-CMakeFiles/OLAS.dir/src/ShaderHandler.cpp.o: /Users/owen/Desktop/maybeICan/src/ShaderHandler.cpp
+CMakeFiles/OLAS.dir/src/ShaderHandler.cpp.o: /Users/owen/Desktop/olas/OLas/src/ShaderHandler.cpp
 CMakeFiles/OLAS.dir/src/ShaderHandler.cpp.o: CMakeFiles/OLAS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/owen/Desktop/maybeICan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/OLAS.dir/src/ShaderHandler.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OLAS.dir/src/ShaderHandler.cpp.o -MF CMakeFiles/OLAS.dir/src/ShaderHandler.cpp.o.d -o CMakeFiles/OLAS.dir/src/ShaderHandler.cpp.o -c /Users/owen/Desktop/maybeICan/src/ShaderHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/owen/Desktop/olas/OLas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/OLAS.dir/src/ShaderHandler.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OLAS.dir/src/ShaderHandler.cpp.o -MF CMakeFiles/OLAS.dir/src/ShaderHandler.cpp.o.d -o CMakeFiles/OLAS.dir/src/ShaderHandler.cpp.o -c /Users/owen/Desktop/olas/OLas/src/ShaderHandler.cpp
 
 CMakeFiles/OLAS.dir/src/ShaderHandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OLAS.dir/src/ShaderHandler.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/owen/Desktop/maybeICan/src/ShaderHandler.cpp > CMakeFiles/OLAS.dir/src/ShaderHandler.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/owen/Desktop/olas/OLas/src/ShaderHandler.cpp > CMakeFiles/OLAS.dir/src/ShaderHandler.cpp.i
 
 CMakeFiles/OLAS.dir/src/ShaderHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OLAS.dir/src/ShaderHandler.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/owen/Desktop/maybeICan/src/ShaderHandler.cpp -o CMakeFiles/OLAS.dir/src/ShaderHandler.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/owen/Desktop/olas/OLas/src/ShaderHandler.cpp -o CMakeFiles/OLAS.dir/src/ShaderHandler.cpp.s
 
 CMakeFiles/OLAS.dir/src/VAO.cpp.o: CMakeFiles/OLAS.dir/flags.make
-CMakeFiles/OLAS.dir/src/VAO.cpp.o: /Users/owen/Desktop/maybeICan/src/VAO.cpp
+CMakeFiles/OLAS.dir/src/VAO.cpp.o: /Users/owen/Desktop/olas/OLas/src/VAO.cpp
 CMakeFiles/OLAS.dir/src/VAO.cpp.o: CMakeFiles/OLAS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/owen/Desktop/maybeICan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/OLAS.dir/src/VAO.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OLAS.dir/src/VAO.cpp.o -MF CMakeFiles/OLAS.dir/src/VAO.cpp.o.d -o CMakeFiles/OLAS.dir/src/VAO.cpp.o -c /Users/owen/Desktop/maybeICan/src/VAO.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/owen/Desktop/olas/OLas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/OLAS.dir/src/VAO.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OLAS.dir/src/VAO.cpp.o -MF CMakeFiles/OLAS.dir/src/VAO.cpp.o.d -o CMakeFiles/OLAS.dir/src/VAO.cpp.o -c /Users/owen/Desktop/olas/OLas/src/VAO.cpp
 
 CMakeFiles/OLAS.dir/src/VAO.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OLAS.dir/src/VAO.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/owen/Desktop/maybeICan/src/VAO.cpp > CMakeFiles/OLAS.dir/src/VAO.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/owen/Desktop/olas/OLas/src/VAO.cpp > CMakeFiles/OLAS.dir/src/VAO.cpp.i
 
 CMakeFiles/OLAS.dir/src/VAO.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OLAS.dir/src/VAO.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/owen/Desktop/maybeICan/src/VAO.cpp -o CMakeFiles/OLAS.dir/src/VAO.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/owen/Desktop/olas/OLas/src/VAO.cpp -o CMakeFiles/OLAS.dir/src/VAO.cpp.s
 
 CMakeFiles/OLAS.dir/src/VBO.cpp.o: CMakeFiles/OLAS.dir/flags.make
-CMakeFiles/OLAS.dir/src/VBO.cpp.o: /Users/owen/Desktop/maybeICan/src/VBO.cpp
+CMakeFiles/OLAS.dir/src/VBO.cpp.o: /Users/owen/Desktop/olas/OLas/src/VBO.cpp
 CMakeFiles/OLAS.dir/src/VBO.cpp.o: CMakeFiles/OLAS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/owen/Desktop/maybeICan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/OLAS.dir/src/VBO.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OLAS.dir/src/VBO.cpp.o -MF CMakeFiles/OLAS.dir/src/VBO.cpp.o.d -o CMakeFiles/OLAS.dir/src/VBO.cpp.o -c /Users/owen/Desktop/maybeICan/src/VBO.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/owen/Desktop/olas/OLas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/OLAS.dir/src/VBO.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OLAS.dir/src/VBO.cpp.o -MF CMakeFiles/OLAS.dir/src/VBO.cpp.o.d -o CMakeFiles/OLAS.dir/src/VBO.cpp.o -c /Users/owen/Desktop/olas/OLas/src/VBO.cpp
 
 CMakeFiles/OLAS.dir/src/VBO.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OLAS.dir/src/VBO.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/owen/Desktop/maybeICan/src/VBO.cpp > CMakeFiles/OLAS.dir/src/VBO.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/owen/Desktop/olas/OLas/src/VBO.cpp > CMakeFiles/OLAS.dir/src/VBO.cpp.i
 
 CMakeFiles/OLAS.dir/src/VBO.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OLAS.dir/src/VBO.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/owen/Desktop/maybeICan/src/VBO.cpp -o CMakeFiles/OLAS.dir/src/VBO.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/owen/Desktop/olas/OLas/src/VBO.cpp -o CMakeFiles/OLAS.dir/src/VBO.cpp.s
 
 CMakeFiles/OLAS.dir/src/main.cpp.o: CMakeFiles/OLAS.dir/flags.make
-CMakeFiles/OLAS.dir/src/main.cpp.o: /Users/owen/Desktop/maybeICan/src/main.cpp
+CMakeFiles/OLAS.dir/src/main.cpp.o: /Users/owen/Desktop/olas/OLas/src/main.cpp
 CMakeFiles/OLAS.dir/src/main.cpp.o: CMakeFiles/OLAS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/owen/Desktop/maybeICan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/OLAS.dir/src/main.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OLAS.dir/src/main.cpp.o -MF CMakeFiles/OLAS.dir/src/main.cpp.o.d -o CMakeFiles/OLAS.dir/src/main.cpp.o -c /Users/owen/Desktop/maybeICan/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/owen/Desktop/olas/OLas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/OLAS.dir/src/main.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OLAS.dir/src/main.cpp.o -MF CMakeFiles/OLAS.dir/src/main.cpp.o.d -o CMakeFiles/OLAS.dir/src/main.cpp.o -c /Users/owen/Desktop/olas/OLas/src/main.cpp
 
 CMakeFiles/OLAS.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OLAS.dir/src/main.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/owen/Desktop/maybeICan/src/main.cpp > CMakeFiles/OLAS.dir/src/main.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/owen/Desktop/olas/OLas/src/main.cpp > CMakeFiles/OLAS.dir/src/main.cpp.i
 
 CMakeFiles/OLAS.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OLAS.dir/src/main.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/owen/Desktop/maybeICan/src/main.cpp -o CMakeFiles/OLAS.dir/src/main.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/owen/Desktop/olas/OLas/src/main.cpp -o CMakeFiles/OLAS.dir/src/main.cpp.s
 
 CMakeFiles/OLAS.dir/src/stb_image.cpp.o: CMakeFiles/OLAS.dir/flags.make
-CMakeFiles/OLAS.dir/src/stb_image.cpp.o: /Users/owen/Desktop/maybeICan/src/stb_image.cpp
+CMakeFiles/OLAS.dir/src/stb_image.cpp.o: /Users/owen/Desktop/olas/OLas/src/stb_image.cpp
 CMakeFiles/OLAS.dir/src/stb_image.cpp.o: CMakeFiles/OLAS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/owen/Desktop/maybeICan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/OLAS.dir/src/stb_image.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OLAS.dir/src/stb_image.cpp.o -MF CMakeFiles/OLAS.dir/src/stb_image.cpp.o.d -o CMakeFiles/OLAS.dir/src/stb_image.cpp.o -c /Users/owen/Desktop/maybeICan/src/stb_image.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/owen/Desktop/olas/OLas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/OLAS.dir/src/stb_image.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OLAS.dir/src/stb_image.cpp.o -MF CMakeFiles/OLAS.dir/src/stb_image.cpp.o.d -o CMakeFiles/OLAS.dir/src/stb_image.cpp.o -c /Users/owen/Desktop/olas/OLas/src/stb_image.cpp
 
 CMakeFiles/OLAS.dir/src/stb_image.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OLAS.dir/src/stb_image.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/owen/Desktop/maybeICan/src/stb_image.cpp > CMakeFiles/OLAS.dir/src/stb_image.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/owen/Desktop/olas/OLas/src/stb_image.cpp > CMakeFiles/OLAS.dir/src/stb_image.cpp.i
 
 CMakeFiles/OLAS.dir/src/stb_image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OLAS.dir/src/stb_image.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/owen/Desktop/maybeICan/src/stb_image.cpp -o CMakeFiles/OLAS.dir/src/stb_image.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/owen/Desktop/olas/OLas/src/stb_image.cpp -o CMakeFiles/OLAS.dir/src/stb_image.cpp.s
 
 # Object files for target OLAS
 OLAS_OBJECTS = \
@@ -253,7 +253,7 @@ OLAS: CMakeFiles/OLAS.dir/src/main.cpp.o
 OLAS: CMakeFiles/OLAS.dir/src/stb_image.cpp.o
 OLAS: CMakeFiles/OLAS.dir/build.make
 OLAS: CMakeFiles/OLAS.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/owen/Desktop/maybeICan/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable OLAS"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/owen/Desktop/olas/OLas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable OLAS"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OLAS.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -265,6 +265,6 @@ CMakeFiles/OLAS.dir/clean:
 .PHONY : CMakeFiles/OLAS.dir/clean
 
 CMakeFiles/OLAS.dir/depend:
-	cd /Users/owen/Desktop/maybeICan/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/owen/Desktop/maybeICan /Users/owen/Desktop/maybeICan /Users/owen/Desktop/maybeICan/build /Users/owen/Desktop/maybeICan/build /Users/owen/Desktop/maybeICan/build/CMakeFiles/OLAS.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/owen/Desktop/olas/OLas/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/owen/Desktop/olas/OLas /Users/owen/Desktop/olas/OLas /Users/owen/Desktop/olas/OLas/build /Users/owen/Desktop/olas/OLas/build /Users/owen/Desktop/olas/OLas/build/CMakeFiles/OLAS.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/OLAS.dir/depend
 

@@ -1,7 +1,7 @@
 CMakeFiles/OLAS.dir/src/VBO.cpp.o: \
-  /Users/owen/Desktop/maybeICan/src/VBO.cpp \
-  /Users/owen/Desktop/maybeICan/includes/VBO.h \
-  /Users/owen/Desktop/maybeICan/includes/Types.h \
+  /Users/owen/Desktop/olas/OLas/src/VBO.cpp \
+  /Users/owen/Desktop/olas/OLas/includes/VBO.h \
+  /Users/owen/Desktop/olas/OLas/includes/Types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__config_site \
@@ -417,5 +417,5 @@ CMakeFiles/OLAS.dir/src/VBO.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/array \
-  /Users/owen/Desktop/maybeICan/dependencies/glad/glad.h \
-  /Users/owen/Desktop/maybeICan/dependencies/glad/khrplatform.h
+  /Users/owen/Desktop/olas/OLas/dependencies/glad/glad.h \
+  /Users/owen/Desktop/olas/OLas/dependencies/glad/khrplatform.h

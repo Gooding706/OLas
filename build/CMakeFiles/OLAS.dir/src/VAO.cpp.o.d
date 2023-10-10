@@ -1,8 +1,8 @@
 CMakeFiles/OLAS.dir/src/VAO.cpp.o: \
-  /Users/owen/Desktop/maybeICan/src/VAO.cpp \
-  /Users/owen/Desktop/maybeICan/includes/VAO.h \
-  /Users/owen/Desktop/maybeICan/dependencies/glad/glad.h \
-  /Users/owen/Desktop/maybeICan/dependencies/glad/khrplatform.h \
+  /Users/owen/Desktop/olas/OLas/src/VAO.cpp \
+  /Users/owen/Desktop/olas/OLas/includes/VAO.h \
+  /Users/owen/Desktop/olas/OLas/dependencies/glad/glad.h \
+  /Users/owen/Desktop/olas/OLas/dependencies/glad/khrplatform.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/__config_site \
