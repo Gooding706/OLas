@@ -5,10 +5,11 @@
 #include <string>
 #include <fstream>
 #include <sstream>
+#include <Mesh.h>
 
 namespace OPut
 {
-   void loadModel(const char* path);
+   Mesh loadModel(const char* path);
    std::string ReadFile(const char *Path);
    unsigned int genTexture(const char *Path);
 }

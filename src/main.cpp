@@ -68,7 +68,8 @@ int main(int argc, char** argv)
       1, 2, 3 
   };
 
-  Mesh m1(triangle, 4, indices, 6);
+
+  Mesh m1 = OPut::loadModel("Models/UVcube.glb");
   Camera Cam = Camera();
 
   OShader::ShaderBundle bnd = OShader::ParseShaders("Shaders/Defvert.glsl", "Shaders/frag.glsl");
@@ -80,7 +81,7 @@ int main(int argc, char** argv)
 
   //Should we hold uniforms that are obj specific, if so how? templates?
   int UTime = glGetUniformLocation(Program, "UTime");
-  unsigned int TEX = OPut::genTexture("Shaders/Sex.jpg");
+  unsigned int TEX = OPut::genTexture("Shaders/sex.jpg");
 
   m1.AttachTexture(TEX);
 
@@ -91,9 +92,9 @@ int main(int argc, char** argv)
   
   
   double x, y = 0;
-  m1.SetScale({2.0, 1, 1});
-  
-  OPut::loadModel("Models/monkey.glb");
+
+  m1.SetScale({.5, .5, .5});
+
   while(!glfwWindowShouldClose(Window))
   {
     glEnable(GL_DEPTH_TEST);

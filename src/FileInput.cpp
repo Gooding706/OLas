@@ -19,7 +19,7 @@ namespace OPut{
     */
 
 
-    void loadModel(const char* path)
+    Mesh loadModel(const char* path)
     {
         Assimp::Importer Im;
         const aiScene* Scene = Im.ReadFile(path, aiProcess_Triangulate | aiProcess_FlipUVs);
@@ -27,7 +27,6 @@ namespace OPut{
         if(!Scene->HasMeshes())
         {
             std::cout << "unable to retrieve meshes\n";
-            return;
         }
         int vertCount = Scene->mMeshes[0]->mNumVertices;
         int faceCount = Scene->mMeshes[0]->mNumFaces;
@@ -51,6 +50,8 @@ namespace OPut{
 
             Vertices[i] = OTypes::Vertex{pos, uvobj};
         }
+        Mesh m(Vertices.get(), vertCount, indices.get(), faceCount*3);
+        return m;
     }
 
     std::string ReadFile(const char *Path)
